@@ -32,11 +32,10 @@ export default function Navbar() {
   return (
     <nav
       id="navbar"
-      className={`fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "border-b border-slate-800 bg-slate-950/90 shadow-lg backdrop-blur-xl"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${scrolled
+        ? "border-b border-slate-800 bg-slate-950/90 shadow-lg backdrop-blur-xl"
+        : "bg-transparent"
+        }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
@@ -45,7 +44,7 @@ export default function Navbar() {
           className="group flex items-center gap-2 text-lg font-bold tracking-tight text-slate-100 transition-colors hover:text-accent-light"
         >
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-sm font-bold text-white transition-transform group-hover:scale-110">
-            F
+            <img src="icon.jpg" alt="" />
           </span>
           <span className="hidden sm:inline">Fauzan Azmi</span>
         </a>
@@ -77,9 +76,8 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`overflow-hidden transition-all duration-300 md:hidden ${
-          mobileOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`overflow-hidden transition-all duration-300 md:hidden ${mobileOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <ul className="border-t border-slate-800 bg-slate-950/95 px-6 pb-4 pt-2 backdrop-blur-xl">
           {navLinks.map((link) => (
