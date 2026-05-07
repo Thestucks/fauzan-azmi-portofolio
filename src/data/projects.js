@@ -35,18 +35,22 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Sistem Pelacakan Posisi Kujang",
+    title: "Kujang Tracking System",
     description:
-      "Aplikasi Pelacakan posisi Kujang berbasis web dengan fitur input, edit, hapus data, lokasi secara real time, dan mengirimkan notifikasi keamanan. Dibangun sebagai project skripsi.",
+      "Aplikasi Pelacakan posisi Kujang berbasis web dengan fitur input, edit, hapus data, lokasi secara real time, dan mengirimkan notifikasi automatis. Dibangun sebagai project skripsi.",
     role: "Full Stack Developer",
     stack: ["PHP", "arduino", "MySQL", "Tailwind CSS"],
     highlights: [
       "Full CRUD operations",
       "Location tracking",
-      "Real time notifications(Telegram Bot and email)",
+      "Geofencing",
+      "Automatic notification(telegram bot and email)",
+      "Arduino Uno R3",
+      "GPS Module",
+      "GSM Module"
     ],
     github: "https://github.com/Thestucks/sistem-Pelacakan-gps-kujang",
-    demo: null,
+    demo: "https://Thestucks.github.io/sistem-pelacakan-gps-kujang/docs/demo/",
     featured: true,
   },
   {
