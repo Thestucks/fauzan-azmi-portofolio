@@ -50,7 +50,7 @@ export const projects = [
       "GSM Module"
     ],
     github: "https://github.com/Thestucks/sistem-Pelacakan-gps-kujang",
-    demo: "https://Thestucks.github.io/sistem-pelacakan-gps-kujang/docs/demo/",
+    demo: "https://thestucks.github.io/sistem-Pelacakan-gps-kujang/docs/demo",
     featured: true,
   },
   {
