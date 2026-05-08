@@ -18,19 +18,19 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description:
-      "Website portofolio pribadi yang dibangun dengan React + Vite + Tailwind CSS. Single page, responsif, dan dioptimasi untuk performa. Menampilkan project, skill, dan profil profesional.",
-    role: "Frontend Developer",
-    stack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+    title: "Setia Jaya Training Center",
+    description: `Aplikasi web modern untuk manajemen pelatihan dan sertifikasi, yang dibangun dengan React + Vite + Tailwind CSS. Sistem ini dirancang khusus untuk mendukung operasional Setia Jaya Training Center, mulai dari pengelolaan data peserta, jadwal pelatihan, hingga sertifikasi dan laporan kehadiran.`,
+    role: "Full Stack Developer",
+    stack: ["React", "Vite", "MySQL", "JavaScript", "PDF generation"],
     highlights: [
-      "Mobile-first responsive design",
-      "Component-based architecture",
+      "Full CRUD operations",
+      "Authentication & Authorization",
+      "PDF generation",
       "Optimized performance",
       "Clean, modern UI",
     ],
-    github: "https://github.com/fauzanazmi",
-    demo: null,
+    github: "https://github.com/Thestucks/setiajaya-training-center",
+    demo: "https://thestucks.github.io/setiajaya-training-center/",
     featured: true,
   },
   {
