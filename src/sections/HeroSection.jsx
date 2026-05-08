@@ -26,7 +26,7 @@ export default function HeroSection() {
             Hi, I&apos;m{" "}
             <span className="text-accent-light">Fauzan Azmi</span>
             <br />
-            <span className="text-slate-400">Frontend Developer</span>
+            <span className="text-slate-400">UI/UX Designer & Frontend Developer</span>
           </h1>
 
           {/* Subheading */}
@@ -64,7 +64,7 @@ export default function HeroSection() {
             style={{ animationDelay: "450ms" }}
           >
             <a
-              href="https://github.com/fauzanazmi"
+              href="https://github.com/Thestucks"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg p-2 text-slate-500 transition-colors hover:bg-slate-800 hover:text-slate-200"
@@ -73,7 +73,7 @@ export default function HeroSection() {
               <GithubIcon size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/fauzanazmi"
+              href="https://www.linkedin.com/in/fauzan-azmi-alfiansyah-2920aa1a5/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg p-2 text-slate-500 transition-colors hover:bg-slate-800 hover:text-slate-200"

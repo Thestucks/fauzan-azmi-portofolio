@@ -1,35 +1,37 @@
 import SectionTitle from "../components/SectionTitle";
 import { GithubIcon, LinkedinIcon } from "../components/Icons";
 import { Mail, FileText } from "lucide-react";
+import cvFile from "../assets/CV_Fauzan Azmi Alfiansyah.pdf";
 
 const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "fauzanazmi@email.com",
-    href: "mailto:fauzanazmi@email.com",
+    value: "fauzanazmia@email.com",
+    href: "mailto:fauzanazmia@email.com",
     isBrand: false,
   },
   {
     icon: GithubIcon,
     label: "GitHub",
-    value: "github.com/fauzanazmi",
-    href: "https://github.com/fauzanazmi",
+    value: "github.com/Thestucks",
+    href: "https://github.com/Thestucks",
     isBrand: true,
   },
   {
     icon: LinkedinIcon,
     label: "LinkedIn",
-    value: "linkedin.com/in/fauzanazmi",
-    href: "https://linkedin.com/in/fauzanazmi",
+    value: "linkedin.com/in/fauzan-azmi-alfiansyah-2920aa1a5/",
+    href: "https://www.linkedin.com/in/fauzan-azmi-alfiansyah-2920aa1a5/",
     isBrand: true,
   },
   {
     icon: FileText,
     label: "Resume / CV",
     value: "Download CV",
-    href: "#",
+    href: cvFile,
     isBrand: false,
+    isDownload: true,
   },
 ];
 
@@ -50,12 +52,13 @@ export default function ContactSection() {
                 <a
                   key={link.label}
                   href={link.href}
-                  target={link.href.startsWith("http") ? "_blank" : undefined}
+                  target={link.href.startsWith("http") || link.isDownload ? "_blank" : undefined}
                   rel={
                     link.href.startsWith("http")
                       ? "noopener noreferrer"
                       : undefined
                   }
+                  download={link.isDownload ? "CV-FauzanAzmiAlfiansyah.pdf" : undefined}
                   className="group flex items-center gap-4 rounded-2xl border border-slate-800 bg-surface-raised p-5 transition-all duration-300 hover:border-accent/40 hover:shadow-[0_0_30px_rgba(99,102,241,0.06)]"
                   id={`contact-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
                 >

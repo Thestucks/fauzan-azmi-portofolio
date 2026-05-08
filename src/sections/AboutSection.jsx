@@ -15,7 +15,7 @@ export default function AboutSection() {
             <p className="text-base leading-relaxed text-slate-300">
               Saya <span className="font-semibold text-slate-100">Fauzan Azmi</span>,
               fresh graduate di bidang IT yang memiliki ketertarikan kuat
-              pada pengembangan web. Saya fokus pada frontend development
+              pada pengembangan web. Saya fokus pada UI/UX & Frontend Development
               dengan React, namun juga berpengalaman membangun aplikasi
               full-stack menggunakan Spring Boot dan MySQL.
             </p>

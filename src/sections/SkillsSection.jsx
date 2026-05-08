@@ -31,6 +31,10 @@ export default function SkillsSection() {
             <span className="h-1.5 w-1.5 rounded-full bg-slate-600" />
             Familiar
           </span>
+          <span className="flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 rounded-full bg-slate-600" />
+            Beginner
+          </span>
         </div>
       </div>
     </section>
