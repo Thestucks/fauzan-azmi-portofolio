@@ -55,19 +55,19 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Static Landing Page — Tech Startup",
+    title: "UI & UX Design — SIMAROON LABKOM",
     description:
-      "Landing page statis untuk startup fiktif menggunakan HTML, CSS, dan JavaScript murni. Fokus pada visual hierarchy, responsive layout, dan micro-interaction.",
-    role: "Frontend Developer",
-    stack: ["HTML", "CSS", "JavaScript"],
+      "UI & UX Page untuk project SIMAROON LABKOM menggunakan Figma. Fokus pada visual hierarchy, responsive layout, dan micro-interaction.",
+    role: "UI/UX Designer",
+    stack: ["Figma"],
     highlights: [
       "Pixel-perfect responsive design",
       "CSS animations & transitions",
       "Semantic HTML structure",
       "Cross-browser compatibility",
     ],
-    github: "https://github.com/fauzanazmi",
-    demo: null,
+    figma: "https://www.figma.com/design/nkH4PASZidaKGepI7BLO9J/siMaroon?node-id=231-164&t=V4folnAVwvDlWxfV-1",
+    demo: "https://www.figma.com/proto/nkH4PASZidaKGepI7BLO9J/siMaroon?node-id=428-3&t=Wff5qWv0ODq499K2-1&starting-point-node-id=641%3A75",
     featured: false,
   },
 ];

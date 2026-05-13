@@ -1,5 +1,5 @@
 import { ExternalLink } from "lucide-react";
-import { GithubIcon } from "./Icons";
+import { GithubIcon, FigmaIcon } from "./Icons";
 
 export default function ProjectCard({ project, index }) {
   return (
@@ -33,6 +33,17 @@ export default function ProjectCard({ project, index }) {
                 aria-label={`GitHub repository for ${project.title}`}
               >
                 <GithubIcon size={18} />
+              </a>
+            )}
+            {project.figma && (
+              <a
+                href={project.figma}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg p-2 text-slate-500 transition-colors hover:bg-slate-800 hover:text-slate-200"
+                aria-label={`Figma design for ${project.title}`}
+              >
+                <FigmaIcon size={18} />
               </a>
             )}
             {project.demo && (
