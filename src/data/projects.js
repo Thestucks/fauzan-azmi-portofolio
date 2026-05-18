@@ -12,8 +12,8 @@ export const projects = [
       "Holiday calendar management",
       "Admin audit log system",
     ],
-    github: "https://github.com/fauzanazmi",
-    demo: null,
+    github: "https://github.com/Thestucks/ihcs2",
+    demo: "https://thestucks.github.io/ihcs-demo/",
     featured: true,
   },
   {
