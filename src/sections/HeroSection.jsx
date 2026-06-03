@@ -26,7 +26,7 @@ export default function HeroSection() {
             Hi, I&apos;m{" "}
             <span className="text-accent-light">Fauzan Azmi</span>
             <br />
-            <span className="text-slate-400">UI/UX Designer & Frontend Developer</span>
+            <span className="text-slate-400">Frontend Developer</span>
           </h1>
 
           {/* Subheading */}
